@@ -3,7 +3,7 @@ import sys
 import requests
 import threading
 import random
-from urllib.request import Request
+
 
 ########################################
 # Educational purpose only             #
@@ -29,7 +29,7 @@ elif sys.platform == "win32":
 
 
 print ("\033[1;32m")
-url = input("          URL:  ")
+url = input("          URL:  ").strip()
 print ("\033[1;m")
 
 count = 0
